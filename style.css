@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:black;
+    color:white;
+}
+.hero{
+    text-align:center;
+    margin-top:150px;
+}
+.hero h1{
+    font-size:60px;
+}
+.hero h2{
+    font-size:30px;
+}
+.hero p{
+    font-size:20px;
+}
+input{
+    width:350px;
+    height:50px;
+    font-size:18px;
+}
+button{
+    height:55px;
+    width:170px;
+    background:red;
+    color:white;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+.right{
+    display:flex;
+    gap:15px;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("background.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.hero{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
